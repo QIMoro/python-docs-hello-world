@@ -8,4 +8,4 @@ def hello():
     x=datetime.datetime.now()
     f.write(x)
     f.close()
-    return "Hola mundo (v3.0)- 21 de marzo de 2025"+x
+    return "Hola mundo (v3.0)- 21 de marzo de 2025"
