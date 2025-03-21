@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    f=open("prueba.txt", 'a')
+    f=open("/home/prueba.txt", 'a')
     x=datetime.datetime.now()
     f.write("Ahora son ... ", x)
     f.close()
